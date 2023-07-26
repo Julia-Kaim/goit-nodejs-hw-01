@@ -1,8 +1,11 @@
-# React + Vite
+node index.js --action list
+![Alt text](image1.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+node index.js --action get --id 5
+![Alt text](image.png)
 
-Currently, two official plugins are available:
+node index.js --action add --name Bob --email bob@gmail.com --phone 123123123
+![Alt text](image2.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+node index.js --action remove --id=4
+![Alt text](image3.png)
